@@ -4,8 +4,8 @@ from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler
 
 # ТВОИ ТОКЕНЫ
-TELEGRAM_TOKEN = "твой_токен_бота"
-WEATHER_TOKEN = "твой_ключ_openweathermap"
+TELEGRAM_TOKEN = "8667849263:AAH-2a4GyZEyHBnrjpRoazvawKKOBUG7ADU"
+WEATHER_TOKEN = "fa4118cf8d68ff5c1e447687eae720c1"
 
 # Состояние для ConversationHandler (ожидание ввода города)
 WAITING_CITY = 1
